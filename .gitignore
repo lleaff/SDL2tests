@@ -1,8 +1,6 @@
 #Extension-less files
-# Ignore all files
-**
-# Except those with an extension
-!**.*
+#**
+#!**.**
 
 #Binaries
 *.exe
