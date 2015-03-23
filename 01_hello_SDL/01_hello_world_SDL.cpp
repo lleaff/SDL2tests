@@ -46,7 +46,7 @@ int main()
 
 			//Fill the surface white
 			SDL_FillRect( screenSurface, NULL, 
-					SDL_MapRGB( screenSurface->format, 0xFF, 0xFF, 0xFF ) );
+					SDL_MapRGB( screenSurface->format, 208, 0xF5, 0xF5 ) );
 			
 			//Update the surface
 			SDL_UpdateWindowSurface( window );
