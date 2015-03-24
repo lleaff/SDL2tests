@@ -51,7 +51,7 @@ int main()
 			//Update the surface
 			SDL_UpdateWindowSurface( window );
 
-			//Wait two seconds
+			//Wait five seconds
 			SDL_Delay( 5000 );
 		}
 	}
