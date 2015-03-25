@@ -4,6 +4,7 @@ and may not be redistributed without written permission.*/
 //Using SDL and standard IO
 #include <SDL.h>
 #include <iostream>
+#include <thread>
 
 //Screen dimension constants
 const int SCREEN_WIDTH = 640;
@@ -52,7 +53,8 @@ int main()
 			SDL_UpdateWindowSurface( window );
 
 			//Wait five seconds
-			SDL_Delay( 5000 );
+			std::this_thread::sleep_for(std::chrono::seconds(5));
+			//SDL_Delay( 5000 );
 		}
 	}
 
